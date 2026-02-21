@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Street Az — Bakıda Premium Restoran</title>
+  <meta name="description"
+    content="Fashion Street Az — Azadlıq pr. 133, Bakı. Lüks atmosfer, əla yeməklər, mehriban xidmət. Hər gün açıqdır, 03:00-a qədər. Zəng edin: +994 10 223 04 04">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500;600&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
+  <nav id="mainNav">
+    <a href="#home" class="nav-logo">Fashion Street Az</a>
+    <ul class="nav-links">
+      <li><a href="#about">Haqqımızda</a></li>
+      <li><a href="#menu">Menyu</a></li>
+      <li><a href="#reviews">Rəylər</a></li>
+      <li><a href="#gallery">Qalereya</a></li>
+      <li><a href="#contact">Əlaqə</a></li>
+    </ul>
+    <a href="tel:+994102230404" class="nav-cta">Masa Sifariş Et</a>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════ MOBILE MENU ═══════════════════════════ -->
+  <div class="nav-mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">Haqqımızda</a>
+    <a href="#menu" onclick="toggleMenu()">Menyu</a>
+    <a href="#reviews" onclick="toggleMenu()">Rəylər</a>
+    <a href="#gallery" onclick="toggleMenu()">Qalereya</a>
+    <a href="#contact" onclick="toggleMenu()">Əlaqə</a>
+    <a href="tel:+994102230404" style="color:var(--gold)">+994 10 223 04 04</a>
+  </div>
+
+  <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+  <section id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Bakı · Azərbaycan · Azadlıq pr. 133</p>
+      <h1 class="hero-title">Lüks <em>Atmosfer,</em><br>Əla Mətbəx</h1>
+      <p class="hero-sub">Lüks və zəriflik dünyasına qərq olmaq istəyənlərin məkanı — Fashion Street Az sizi gözləyir.
+      </p>
+      <div class="hero-buttons">
+        <a href="tel:+994102230404" class="btn-primary">📞 Zəng Et</a>
+        <a href="https://maps.google.com/?q=133+Azadliq+Ave+Baku+Azerbaijan" target="_blank"
+          class="btn-outline">Xəritədə Tap</a>
+        <a href="https://wolt.com/az/aze/baku/restaurant/fashion-street" target="_blank" class="btn-outline">Wolt
+          Sifarişi</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Aşağı Bax</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ STATS ═══════════════════════════════ -->
+  <div class="stats-strip">
+    <div class="stat-item reveal"><span class="stat-num">4.1★</span>
+      <div class="stat-label">Müştəri Reytinqi</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-1"><span class="stat-num">5/5</span>
+      <div class="stat-label">Yemək Keyfiyyəti</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-2"><span class="stat-num">5/5</span>
+      <div class="stat-label">Xidmət</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-3"><span class="stat-num">03:00</span>
+      <div class="stat-label">Bağlanma Saatı</div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-image-wrap reveal">
+        <img class="about-img-main" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+          alt="Restoran interyeri">
+        <img class="about-img-accent" src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80"
+          alt="Xüsusi yeməklər">
+        <div class="about-badge"><span class="stars">4.1</span><span class="label">Ulduz</span></div>
+      </div>
+      <div class="about-text reveal reveal-delay-1">
+        <p class="section-eyebrow">Bizim Hekayəmiz</p>
+        <h2 class="section-title">Fashion Street Az<br><em>Haqqında</em></h2>
+        <div class="gold-divider"></div>
+        <p>Bakının mərkəzindəki Azadlıq prospektinin üzərində yerləşən Fashion Street Az sadəcə bir restoran deyil —
+          lüks və zəriflik dünyasına açılan bir qapıdır. Burada Azərbaycan qonaqpərvərliyi müasir qlobal mətbəxlə
+          birləşir.</p>
+        <p>Hər yemək sevgi ilə hazırlanır, hər an xatirəyə çevrilir. İki nəfərlik intim nahardan tutmuş böyük tədbirlərə
+          qədər, mehribanə komandamız hər ziyarəti unudulmaz edir.</p>
+        <p>36.000-dən çox Instagram izləyicisinin etimadını qazanmış Fashion Street Az, Bakının ən seçilmiş
+          məkanlarından birinə çevrilmişdir.</p>
+        <div class="about-features">
+          <div class="feature-item">
+            <div class="feature-icon">🍽</div>
+            <div>
+              <h4>Premium Mətbəx</h4>
+              <p>Seçilmiş menyular, gözəl təqdimetmə</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🕐</div>
+            <div>
+              <h4>Gec Saatlar</h4>
+              <p>Həftə içi 10:00 – 03:00-a qədər açıq</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🏆</div>
+            <div>
+              <h4>Yüksək Reytinq</h4>
+              <p>22 rəydən 4.1 ulduz</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🛵</div>
+            <div>
+              <h4>Çatdırılma</h4>
+              <p>Wolt vasitəsilə sifariş verin</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/fashionstreetrooms" target="_blank"
+            class="social-btn social-btn-instagram">📸 Instagram</a>
+          <a href="https://wolt.com/az/aze/baku/restaurant/fashion-street" target="_blank"
+            class="social-btn social-btn-wolt">🛵 Wolt-da Sifariş</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ MENU ═══════════════════════════════ -->
+  <section id="menu">
+    <div class="menu-inner">
+      <div class="menu-header reveal">
+        <p class="section-eyebrow">Nə Təklif Edirik</p>
+        <h2 class="section-title">Bizim <em>Menyumuz</em></h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="menu-tabs reveal">
+        <button class="menu-tab active" onclick="switchTab('starters', this)">Soyuq Qəlyanaltı</button>
+        <button class="menu-tab" onclick="switchTab('hot', this)">İsti Qəlyanaltı</button>
+        <button class="menu-tab" onclick="switchTab('mains', this)">Əsas Yeməklər</button>
+        <button class="menu-tab" onclick="switchTab('grill', this)">Kabab & Manqal</button>
+        <button class="menu-tab" onclick="switchTab('desserts', this)">Şirniyyat</button>
+        <button class="menu-tab" onclick="switchTab('drinks', this)">İçkilər</button>
+      </div>
+
+      <!-- Soyuq Qəlyanaltı -->
+      <div class="menu-panel active" id="tab-starters">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Kəsmik Qəlyanaltısı</h3>
+              <p>Sarımsaq, göyərti, qoz ilə hazırlanmış kəsmik</p>
+            </div>
+            <div class="menu-item-price">₼9</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Sezar Salatı</h3>
+              <p>Romaine kahu, parmezan, kruton, Sezar sous</p>
+            </div>
+            <div class="menu-item-price">₼12</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Yunan Salatı</h3>
+              <p>Pomidor, xiyar, zeytun, feta pendir, zeytun yağı</p>
+            </div>
+            <div class="menu-item-price">₼11</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Mevsim Salatı</h3>
+              <p>Bazar yaşıllıqları, nar toxumu, qoz, bal-limon sosu</p>
+            </div>
+            <div class="menu-item-price">₼10</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Ton Balığı Xörəyi</h3>
+              <p>Ton balığı, kapers, limon, avokado dilimləri ilə</p>
+            </div>
+            <div class="menu-item-price">₼16</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Pendir Tabağı</h3>
+              <p>Seçilmiş pendirlər, üzüm, qoz, bal ilə</p>
+            </div>
+            <div class="menu-item-price">₼18</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- İsti Qəlyanaltı -->
+      <div class="menu-panel" id="tab-hot">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Qutab (Göyərtili)</h3>
+              <p>Ənənəvi Azərbaycan qutabı aromatik göyərti ilə, qatıqla verilir</p>
+            </div>
+            <div class="menu-item-price">₼8</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Dolma</h3>
+              <p>Üzüm yarpağında ədviyyatlı quzu əti və düyü, nar sosu ilə</p>
+            </div>
+            <div class="menu-item-price">₼12</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Piti Şorbası</h3>
+              <p>Gil qazanda yavaş bişmiş quzu əti, noxud, şabalıd ilə</p>
+            </div>
+            <div class="menu-item-price">₼15</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Mantı</h3>
+              <p>Ev mantısı, qatıq-sarımsaq sosu, yağda qızardılmış soğan ilə</p>
+            </div>
+            <div class="menu-item-price">₼13</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Çığırtma</h3>
+              <p>Toyuq əti ilə hazırlanmış ənənəvi Azərbaycan xörəyi</p>
+            </div>
+            <div class="menu-item-price">₼14</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Hummus & Lavaş</h3>
+              <p>Kremli noxud hummusu, zeytun yağı, paprika, qızardılmış lavaş</p>
+            </div>
+            <div class="menu-item-price">₼9</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Əsas Yeməklər -->
+      <div class="menu-panel" id="tab-mains">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Zəfəranlı Plov</h3>
+              <p>Azərbaycan mətbəxinin incisi — quzu əti, qurudulmuş meyvələr ilə</p>
+            </div>
+            <div class="menu-item-price">₼20</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Parça Bozbаş</h3>
+              <p>Heyva, şabalıd, turmerik ilə zəngin quzu güveçi, düyü ilə verilir</p>
+            </div>
+            <div class="menu-item-price">₼22</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Toyuq Lavangi</h3>
+              <p>Qoz-soğan pastası ilə doldurulmuş, qızıl rəngə qədər bişirilmiş</p>
+            </div>
+            <div class="menu-item-price">₼24</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Tava Çəkmiş Çipura</h3>
+              <p>Xırtıldayan fileto, zəfəranlı kartof, yaşıllıq, sitrus sosu</p>
+            </div>
+            <div class="menu-item-price">₼28</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Ribeye Biftek (300q)</h3>
+              <p>Premium kəsim, tünd yağ, brokoli, qırmızı şərab sosu</p>
+            </div>
+            <div class="menu-item-price">₼45</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Göbələk Risotto</h3>
+              <p>Arborio düyüsü, vəhşi göbələk, köhnəlmiş parmezan, tünd yağ</p>
+            </div>
+            <div class="menu-item-price">₼19</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kabab & Manqal -->
+      <div class="menu-panel" id="tab-grill">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Lyulya Kabab</h3>
+              <p>Ədviyyatlı quzu əti lülyəsi, lavaş, qızardılmış pomidor və soğan</p>
+            </div>
+            <div class="menu-item-price">₼18</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Tikə Kabab</h3>
+              <p>Marinadlı quzu parçaları, kömür üzərində qızardılmış, nar şirəsi ilə</p>
+            </div>
+            <div class="menu-item-price">₼22</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Toyuq Şiş</h3>
+              <p>Göyərti marinadında toyuq, bibər, soğan, sarımsaqlı qatıq sosu</p>
+            </div>
+            <div class="menu-item-price">₼16</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Balıq Kabab</h3>
+              <p>Təzə balıq fileto, limon, koper, manqalda bişirilmiş</p>
+            </div>
+            <div class="menu-item-price">₼24</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Qarışıq Kabab Tabağı</h3>
+              <p>Quzu, toyuq və mal əti kabablarının seçimi — iki nəfər üçün</p>
+            </div>
+            <div class="menu-item-price">₼42</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Mal Əti Biftek</h3>
+              <p>Seçilmiş mal əti, göbələk sosu, kartof püre ilə</p>
+            </div>
+            <div class="menu-item-price">₼32</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Şirniyyat -->
+      <div class="menu-panel" id="tab-desserts">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Baklava Seçimi</h3>
+              <p>Fıstıq, qoz və bal şirəsi ilə ev bişirməsi baklava assortisi</p>
+            </div>
+            <div class="menu-item-price">₼10</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Şəkərbura</h3>
+              <p>Hil ədviyyatlı qoz ilə doldurulmuş şirin xəmir — Novruz klassiki</p>
+            </div>
+            <div class="menu-item-price">₼8</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Şokolad Fondanı</h3>
+              <p>İsti tünd şokolad mərkəzi, dəniz duzu karamel dondurması ilə</p>
+            </div>
+            <div class="menu-item-price">₼12</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Gül Suylu Panna Kotta</h3>
+              <p>İpəkli panna kotta, gül suyu, təzə moruq, qızıl yarpaq ilə</p>
+            </div>
+            <div class="menu-item-price">₼11</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- İçkilər -->
+      <div class="menu-panel" id="tab-drinks">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Azərbaycan Çayı</h3>
+              <p>Armudu stəkanda verilən ənənəvi çay, mürəbbə və şəkər ilə</p>
+            </div>
+            <div class="menu-item-price">₼4</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Təzə Sıxılmış Nar Şirəsi</h3>
+              <p>Soyuq preslənmiş, təmiz, heç bir əlavəsiz</p>
+            </div>
+            <div class="menu-item-price">₼7</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Günün Şərbəti</h3>
+              <p>Ənənəvi otlu şirin içki — növ üçün ofisiantınıza müraciət edin</p>
+            </div>
+            <div class="menu-item-price">₼6</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Ev Limonadı</h3>
+              <p>Nanə, limon və zəncəfil ilə ev hazırlığı köpüklü limonad</p>
+            </div>
+            <div class="menu-item-price">₼7</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Şərab Seçimi</h3>
+              <p>Gürcüstan və Avropa şərablarının seçilmiş kolleksiyası</p>
+            </div>
+            <div class="menu-item-price">₼18-dən</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Mocktail Siqnaturu</h3>
+              <p>Mövsüm meyvəsi, ot və botanika — alkolsüz zəriflik</p>
+            </div>
+            <div class="menu-item-price">₼9</div>
+          </div>
+        </div>
+      </div>
+
+      <p class="menu-note reveal">Qiymətlər AZN (₼) ilə · Bütün yeməklər mövsüm əlçatanlığına görə dəyişə bilər ·
+        Allergen məlumatı tələb üzərindədir</p>
+      <div class="wolt-order-btn reveal">
+        <a href="https://wolt.com/az/aze/baku/restaurant/fashion-street" target="_blank" class="wolt-btn">🛵 Wolt-da
+          Sifariş Ver</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ REVIEWS ═══════════════════════════════ -->
+  <section id="reviews">
+    <div class="reviews-inner">
+      <div class="reviews-header reveal">
+        <p class="section-eyebrow">Müştəri Təcrübələri</p>
+        <h2 class="section-title">Qonaqlarımız <em>Nə Deyir</em></h2>
+        <div class="gold-divider"></div>
+      </div>
+      <div class="overall-rating reveal">
+        <div class="rating-big">4.1</div>
+        <div class="rating-details">
+          <div class="stars-row"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span
+              class="star">★</span><span class="star empty">★</span></div>
+          <p>22 Google Rəyinə Əsaslanaraq</p>
+        </div>
+        <div class="score-bars">
+          <div class="score-bar-row"><span class="score-bar-label">Yemək</span>
+            <div class="score-bar-track">
+              <div class="score-bar-fill" style="width:100%"></div>
+            </div><span class="score-val">5.0</span>
+          </div>
+          <div class="score-bar-row"><span class="score-bar-label">Xidmət</span>
+            <div class="score-bar-track">
+              <div class="score-bar-fill" style="width:100%"></div>
+            </div><span class="score-val">5.0</span>
+          </div>
+          <div class="score-bar-row"><span class="score-bar-label">Atmosfer</span>
+            <div class="score-bar-track">
+              <div class="score-bar-fill" style="width:82%"></div>
+            </div><span class="score-val">4.1</span>
+          </div>
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Əla yemək təcrübəsi! Hər yeməyin təqdimatı mükəmməl idi. İşçilər çox mehriban və
+            diqqətliydi. Mütləq geri qayıdacağam.»</p>
+          <div class="review-author">
+            <div class="review-avatar">A</div>
+            <div>
+              <div class="review-name">Anar M.</div>
+              <div class="review-date">Noyabr 2024</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal-delay-1">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Azadlıq prospektindəki ən yaxşı restoran! Gəldiyimiz andan qonaqpərvərlik mükəmməl
+            idi. Zəfəranlı plov özü bir səfər etməyə dəyər.»</p>
+          <div class="review-author">
+            <div class="review-avatar">L</div>
+            <div>
+              <div class="review-name">Leyla K.</div>
+              <div class="review-date">Oktyabr 2024</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal-delay-2">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«İldonumuzu burada qeyd etdik — mükəmməl idi. Gözəl atmosfer, fantastik kokteyllər,
+            toyuq lavangi isə möhtəşəm! Bakıda həqiqətən xüsusi bir yer.»</p>
+          <div class="review-author">
+            <div class="review-avatar">N</div>
+            <div>
+              <div class="review-name">Nigar & Fərid</div>
+              <div class="review-date">Sentyabr 2024</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★☆</div>
+          <p class="review-text">«Əla yemək və çox xoş atmosfer. İşçilər inanılmaz dərəcədə nəzakətli və peşəkardır. İş
+            naharı və ya romantik axşam yeməyi üçün mükəmməldir.»</p>
+          <div class="review-author">
+            <div class="review-avatar">R</div>
+            <div>
+              <div class="review-name">Rauf A.</div>
+              <div class="review-date">Avqust 2024</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal-delay-1">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Gecə yarısına yaxın gəldik — xidmət hələ də mükəmməl idi. Saat 03:00-a qədər açıq
+            olduqlarını sevdim! Bu artıq bizim sevimli məkanımızdır.»</p>
+          <div class="review-author">
+            <div class="review-avatar">S</div>
+            <div>
+              <div class="review-name">Sevinc T.</div>
+              <div class="review-date">İyul 2024</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal-delay-2">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Həqiqətən gizli bir cəvahir. İnteryer şık və rahatdır, menyu isə müxtəlifdir.
+            Keyfiyyətə görə qiymətlər çox ədalətlidir. Hər kəsə tövsiyə edirəm.»</p>
+          <div class="review-author">
+            <div class="review-avatar">E</div>
+            <div>
+              <div class="review-name">Emil & Günəl</div>
+              <div class="review-date">İyun 2024</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ GALLERY ═══════════════════════════════ -->
+  <section id="gallery">
+    <div class="gallery-inner">
+      <div class="gallery-header reveal">
+        <p class="section-eyebrow">Anlar və Xatirələr</p>
+        <h2 class="section-title">Bizim <em>Qalereyamız</em></h2>
+        <div class="gold-divider"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="images/IMG_6230.JPG" alt="Restoran interyeri">
+          <div class="gallery-overlay"><span class="gallery-label">İnteryer</span></div>
+        </div>
+
+
+
+
+        <div class="gallery-item"><img src="images/IMG_6231.jpg" alt="Restoran interyeri">
+
+          <div class="gallery-overlay"><span class="gallery-label">İnteryer</span></div>
+        </div>
+
+        <div class="gallery-item"><img src="images/IMG_6234.jpg" alt="İçkilər">
+
+          <div class="gallery-overlay"><span class="gallery-label">İçkilər</span></div>
+        </div>
+
+        <div class="gallery-item"><img src="images/IMG_6233.jpg" alt="Yemek">
+
+          <div class="gallery-overlay"><span class="gallery-label">Yemek</span></div>
+        </div>
+      </div>
+      <div class="instagram-link-wrap reveal">
+        <a href="https://www.instagram.com/fashionstreetrooms" target="_blank" class="social-btn social-btn-instagram"
+          style="display:inline-flex;">
+          📸 Instagram-da Daha Çox Şəkil Gör — @fashionstreetrooms
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ SERVICES ═══════════════════════════════ -->
+  <div class="services-strip">
+    <div class="services-inner">
+      <p class="section-eyebrow" style="text-align:center">Xidmətlərimiz</p>
+      <h2 class="section-title reveal" style="margin-bottom:1rem">Sizi Necə <em>Xidmət Edirik</em></h2>
+      <div class="gold-divider reveal" style="margin:1rem auto 3rem"></div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🍽️</div>
+          <h3>Restoranda Yemək</h3>
+          <p>Rahatlanın, oturun və Fashion Street Az-ın tam atmosferindən həzz alın. Hər gün 10:00 – 03:00-a qədər açıq.
+          </p>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">🚗</div>
+          <h3>Yol Kənarından Götürmə</h3>
+          <p>Sevdiyiniz yeməkləri sifariş edin və avtomobilinizi tərk etmədən əldə edin. Sürətli, asan və əngəlsiz.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">📦</div>
+          <h3>Kontaktsız Çatdırılma</h3>
+          <p>Wolt vasitəsilə restoran keyfiyyətli yemək evinizin rahatlığında. Sürətli, etibarlı, kontaktsız çatdırılma.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="contact-info reveal">
+        <p class="section-eyebrow">Bizi Tapın</p>
+        <h2 class="section-title">Fashion Street Az-a <em>Buyurun</em></h2>
+        <div class="gold-divider"></div>
+        <p>Bakının mərkəzindəki Azadlıq prospektindəyik. İstər xüsusi bir tədbiriniz olsun, istərsə də sadə bir axşam
+          yeməyi — qapılarımız hər gün 03:00-a qədər açıqdır.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-text">
+              <h4>Ünvan</h4>
+              <p>133, 1007 Azadlıq pr., Bakı 1007, Azərbaycan</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div class="contact-item-text">
+              <h4>Telefon</h4><a href="tel:+994102230404">+994 10 223 04 04</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🕐</div>
+            <div class="contact-item-text">
+              <h4>İş Saatları</h4>
+              <p>Həftə içi: 10:00 – 03:00</p>
+              <p>Həftəsonu isə 10:00 - 06:00</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📸</div>
+            <div class="contact-item-text">
+              <h4>Sosial Media</h4><a href="https://www.instagram.com/fashionstreetrooms"
+                target="_blank">@fashionstreetrooms · 36K izləyici</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-ctas">
+          <a href="tel:+994102230404" class="btn-primary">📞 Zəng Et</a>
+          <a href="https://maps.google.com/?q=133+Azadliq+Ave+Baku+Azerbaijan" target="_blank"
+            class="btn-outline">Xəritədə Tap</a>
+          <a href="https://wolt.com/az/aze/baku/restaurant/fashion-street" target="_blank" class="btn-outline">Wolt
+            Sifarişi</a>
+        </div>
+      </div>
+      <div class="map-wrap reveal reveal-delay-1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.7!2d49.8672!3d40.4093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6b6c0b0001%3A0x0!2s133+Azadliq+Ave%2C+Baku+1007%2C+Azerbaijan!5e0!3m2!1saz!2saz!4v1234567890"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer>
+    <div class="footer-logo">Fashion Street Az</div>
+    <div class="footer-links">
+      <a href="#about">Haqqımızda</a>
+      <a href="#menu">Menyu</a>
+      <a href="#reviews">Rəylər</a>
+      <a href="#contact">Əlaqə</a>
+    </div>
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/fashionstreetrooms" target="_blank" class="footer-social-link Instagram"
+        title="Instagram">📸</a>
+
+      <a href="https://wolt.com/az/aze/baku/restaurant/fashion-street" target="_blank" class="footer-social-link"
+        title="Wolt">🛵</a>
+      <a href="tel:+994102230404" class="footer-social-link" title="Zəng">📞</a>
+    </div>
+    <p class="footer-copy">© 2025 Fashion Street Az · Bakı, Azərbaycan</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
